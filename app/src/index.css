@@ -1,0 +1,181 @@
+/* Không tải web-font ngoài: dùng font hệ thống San Francisco (Apple) — bản 1
+   file HTML mở offline vẫn đúng chữ, tải trang nhanh hơn. Xem lib/theme.ts. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Giá trị dự phòng — applyBrand() trong theme.ts ghi đè lúc chạy */
+  --color-primary: #041e42;
+  --color-on-primary: #ffffff;
+  --color-secondary: #bf0c3e;
+  --color-accent: #bf0c3e;
+  --color-background: #ffffff;
+  --color-foreground: #041e42;
+  --color-muted: #d9d9d6;
+  --color-border: #d9d9d6;
+  --color-destructive: #dc2626;
+
+  /* San Francisco (Apple) — applyBrand() có thể ghi đè lúc chạy */
+  --font-body: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display',
+    'Helvetica Neue', 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-numeric: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Soft UI Evolution — bóng đổ mềm phủ sắc navy nhạt, có chiều sâu tinh tế */
+  --shadow-soft: 0 1px 2px rgba(4, 30, 66, 0.06), 0 1px 3px rgba(4, 30, 66, 0.05);
+  --shadow-soft-md: 0 2px 6px rgba(4, 30, 66, 0.08), 0 6px 16px rgba(4, 30, 66, 0.06);
+  --shadow-soft-lg: 0 10px 30px rgba(4, 30, 66, 0.14), 0 3px 8px rgba(4, 30, 66, 0.06);
+
+  /* Density 8/10 — dense dashboard */
+  --space-xs: 2px;
+  --space-sm: 4px;
+  --space-md: 8px;
+  --space-lg: 12px;
+  --space-xl: 16px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-foreground);
+  background: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Số liệu dùng font mono + canh phải cho dễ đối chiếu theo cột */
+.num {
+  font-family: var(--font-numeric);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+/* Focus nhìn thấy được cho điều hướng bàn phím (a11y) */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Chuyển động vào của modal/lớp phủ — nhẹ, 150–200ms (đã tôn trọng
+   prefers-reduced-motion ở khối bên dưới). */
+@keyframes waco-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes waco-scale-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.animate-fade-in {
+  animation: waco-fade-in 0.15s ease-out;
+}
+.animate-scale-in {
+  animation: waco-scale-in 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- In ấn ---------- */
+/* Khổ giấy KHÔNG đặt ở đây: mỗi màn hình có khổ riêng (tem 4x6in,
+   kế hoạch A4 ngang) nên rule @page được chèn lúc chạy — xem lib/printing.ts */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  /* Bắt buộc in cả màu nền: các ô trạng thái mất màu là mất luôn ý nghĩa */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /*
+   * app-shell/app-main dùng flex + overflow-auto để cuộn trên màn hình.
+   * Khi in, overflow-auto CẮT MẤT phần bảng vượt quá 1 màn hình thay vì
+   * tự sang trang — trình duyệt chỉ in đúng phần đang lọt trong khung cuộn.
+   * Gỡ hết ràng buộc chiều cao/flex cho print để nội dung chảy tự nhiên
+   * và tự phân trang, giữ tiêu đề bảng lặp lại (đã set ở WeekPrintSheet).
+   */
+  html,
+  body,
+  #root {
+    height: auto !important;
+  }
+  .app-shell {
+    display: block !important;
+    height: auto !important;
+  }
+  .app-main {
+    overflow: visible !important;
+    height: auto !important;
+    flex: none !important;
+  }
+}
+
+/* Tem khổ 2x4in nằm ngang (rộng 4in, cao 2in) — khớp @page do lib/printing.ts chèn lúc in */
+.label-page {
+  width: 4in;
+  height: 2in;
+  box-sizing: border-box;
+  page-break-after: always;
+  break-after: page;
+  overflow: hidden;
+}
+
+.label-page:last-child {
+  page-break-after: auto;
+  break-after: auto;
+}
+
+/* Tem Foam — xếp 4 tem (2×2) trên mỗi trang A4 ngang, có khoảng cách 20px
+   giữa các tem, lề trang 20px (đặt ở @page lúc in, khớp A4_LANDSCAPE_FULL
+   trong lib/printing.ts). Mỗi .foam-page = 1 trang, tối đa 4 tem rồi sang
+   trang. Dùng CSS Grid với kích thước TRANG CỐ ĐỊNH (tính từ khổ A4 ngang
+   297×210mm trừ lề) thay vì flex-wrap dựa vào bề rộng trình duyệt tự đo —
+   flex-wrap từng bị trình duyệt tính sai bề rộng khả dụng, làm tem rớt xuống
+   1 cột dọc thay vì 2×2. Grid 2×2 cố định luôn đảm bảo đúng bố cục. */
+.foam-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* LUÔN 2 cột, co theo bề rộng vùng in thực tế */
+  gap: 20px;
+  page-break-after: always;
+  break-after: page;
+}
+.foam-page:last-child {
+  page-break-after: auto;
+  break-after: auto;
+}
+/* Tem cao cố định 90mm (2 hàng = 185mm, còn dư so với ~199mm vùng in A4 ngang
+   sau lề 20px) để không bao giờ tràn xuống trang 2. Bề rộng để 100% = tự vừa
+   1 cột của grid, bất kể máy in tự thêm lề bao nhiêu. */
+.foam-label {
+  width: 100%;
+  height: 90mm;
+  box-sizing: border-box;
+  overflow: hidden;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}

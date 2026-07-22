@@ -1,0 +1,791 @@
+{
+  "formatVersion": 1,
+  "weekNumber": 29,
+  "updatedAt": 1784444812558,
+  "revised": 0,
+  "visibleDays": 7,
+  "rows": [
+    {
+      "sku": "FROST-CUSHION-FIRM-13IN-FULL",
+      "productName": "FROST CUSHION FIRM 13\" m Mattress",
+      "size": "FULL",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 4, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "FROST-CUSHION-FIRM-13IN-QUEEN",
+      "productName": "FROST CUSHION FIRM 13\" m Mattress",
+      "size": "QUEEN",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 10, "status": "quilting" },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "FROST-CUSHION-FIRM-13IN-KING",
+      "productName": "FROST CUSHION FIRM 13\" m Mattress",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 10, "status": "quilting" },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "ECOFLEX-11IN-FULL",
+      "productName": "ECOFLEX 11\" Mattress",
+      "size": "FULL",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 10, "status": "priority" },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "ECOFLEX-11IN-QUEEN",
+      "productName": "ECOFLEX 11\" Mattress",
+      "size": "QUEEN",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": 10, "status": "quilting" },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "ECOFLEX-11IN-KING",
+      "productName": "ECOFLEX 11\" Mattress",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 5, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "ARIA-MEDIUM-12IN-TWIN",
+      "productName": "ARIA MEDIUM 12\" m Mattress",
+      "size": "TWIN",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 7, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "MIDNIGHT-LUX-15IN-FULL",
+      "productName": "MIDNIGHT LUX 15\" m Mattress",
+      "size": "FULL",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": 6, "status": "quilting" },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "MIDNIGHT-FIRM-14IN-KING",
+      "productName": "MIDNIGHT FIRM 14\" m Mattress",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": 8, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "HEIRLOOM-ULTRA-QUEEN",
+      "productName": "HEIRLOOM ULTRA",
+      "size": "QUEEN",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 5, "status": "quilting" },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "HEIRLOOM-ULTRA-KING",
+      "productName": "HEIRLOOM ULTRA",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 5, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "HEIRLOOM-LUX-QUEEN",
+      "productName": "HEIRLOOM LUX",
+      "size": "QUEEN",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 5, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "HEIRLOOM-LUX-KING",
+      "productName": "HEIRLOOM LUX",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 5, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "TWILIGHT-FIRM-12IN-QUEEN",
+      "productName": "TWILIGHT FIRM 12\" Mattress",
+      "size": "QUEEN",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 10, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "TWILIGHT-FIRM-12IN-KING",
+      "productName": "TWILIGHT FIRM 12\" Mattress",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 10, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "SPLIT-HEAD-LUX-KING",
+      "productName": "SPLIT-HEAD LUX",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 2, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "SPLIT-HEAD-ULTRA-QUEEN",
+      "productName": "SPLIT-HEAD ULTRA",
+      "size": "QUEEN",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 2, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "PRESIDENTIAL-LUX-14IN-QUEEN",
+      "productName": "PRESIDENTIAL LUX 14\" Mattress",
+      "size": "QUEEN",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 10, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "PRESIDENTIAL-ULTRA-13IN-KING",
+      "productName": "PRESIDENTIAL ULTRA 13\" Mattress",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 10, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "Philip",
+      "remark": ""
+    },
+    {
+      "sku": "CLEOPATRA-FIRM-QUEEN",
+      "productName": "CLEOPATRA FIRM",
+      "size": "QUEEN",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": 10, "status": "quilting" },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "CLEOPATRA-FIRM-KING",
+      "productName": "CLEOPATRA FIRM",
+      "size": "KING",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 5, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "CLEOPATRA-MEDIUM-QUEEN",
+      "productName": "CLEOPATRA MEDIUM",
+      "size": "QUEEN",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 5, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "CLEOPATRA-MEDIUM-KING",
+      "productName": "CLEOPATRA MEDIUM",
+      "size": "KING",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 5, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "CLEOPATRA-PLUSH-QUEEN",
+      "productName": "CLEOPATRA PLUSH",
+      "size": "QUEEN",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": 5, "status": "quilting" },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "Gabriel",
+      "remark": ""
+    },
+    {
+      "sku": "CLEOPATRA-PLUSH-KING",
+      "productName": "CLEOPATRA PLUSH",
+      "size": "KING",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": 5, "status": "quilting" },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "Gabriel",
+      "remark": ""
+    },
+    {
+      "sku": "FIRST-CLASS-MEDIUM-13INCH-KING",
+      "productName": "FIRST CLASS MEDIUM 13INCH",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 5, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "MEDISPA-FOAM-FIRM-QUEEN",
+      "productName": "Medispa Foam Firm",
+      "size": "Queen",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 5, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "MEDISPA-FOAM-FIRM-KING",
+      "productName": "Medispa Foam Firm",
+      "size": "King",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 5, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "MEDISPA-HYBRID-FIRM-KING",
+      "productName": "Medispa Hybrid Firm",
+      "size": "King",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 3, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "MEDISPA-HYBRID-PLUSH-KING",
+      "productName": "Medispa Hybrid Plush",
+      "size": "King",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 3, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "HERITAGE-CLEOPATRA-BLACK-MEDIUM-KING",
+      "productName": "HERITAGE (CLEOPATRA BLACK) MEDIUM",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": 1, "status": "priority" },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "Gabriel",
+      "remark": ""
+    },
+    {
+      "sku": "HERITAGE-CLEOPATRA-BLACK-PLUSH-KING",
+      "productName": "HERITAGE (CLEOPATRA BLACK) PLUSH",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": 2, "status": "quilting" },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "Gabriel",
+      "remark": ""
+    },
+    {
+      "sku": "HERITAGE-CLEOPATRA-BLACK-PLUSH-CAL-KING",
+      "productName": "HERITAGE (CLEOPATRA BLACK) PLUSH",
+      "size": "CKING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": 1, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "COPPERLUX-14IN-FIRM-QUEEN",
+      "productName": "COPPERLUX 14\" FIRM",
+      "size": "QUEEN",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": 3, "status": "quilting" },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "COPPERLUX-14IN-FIRM-KING",
+      "productName": "COPPERLUX 14\" FIRM",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": 3, "status": "quilting" },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "COPPERLUX-14IN-MEDIUM-KING",
+      "productName": "COPPERLUX 14\" MEDIUM",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 3, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "COPPERLUX-14IN-PLUSH-KING",
+      "productName": "COPPERLUX 14\" PLUSH",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 3, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "S-CLASS-2000-HYBRID-FIRM-15IN-KING",
+      "productName": "S- CLASS 2000 HYBRID FIRM 15\"",
+      "size": "KING",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 3, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "S-CLASS-2000-HYBRID-MEDIUM-15IN-KING",
+      "productName": "S- CLASS 2000 HYBRID MEDIUM 15\"",
+      "size": "KING",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 3, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "S-CLASS-2000-HYBRID-PLUSH-15IN-KING",
+      "productName": "S- CLASS 2000 HYBRID PLUSH 15\"",
+      "size": "KING",
+      "nameColor": "putCover",
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 3, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "MIDNIGHT-20-FIRM-14IN-QUEEN",
+      "productName": "MIDNIGHT 2.0 FIRM 14\" m Mattress",
+      "size": "QUEEN",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 5, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "MIDNIGHT-20-FIRM-14IN-KING",
+      "productName": "MIDNIGHT 2.0 FIRM 14\" m Mattress",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": 5, "status": "quilting" },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 5, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "MIDNIGHT-20-ULTRA-14IN-QUEEN",
+      "productName": "MIDNIGHT 2.0 ULTRA 14\" m Mattress",
+      "size": "QUEEN",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": 10, "status": "quilting" },
+        "wed": { "qty": 5, "status": "priority" },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "Philip",
+      "remark": ""
+    },
+    {
+      "sku": "MIDNIGHT-20-ULTRA-14IN-KING",
+      "productName": "MIDNIGHT 2.0 ULTRA 14\" m Mattress",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": 5, "status": "quilting" },
+        "wed": { "qty": null, "status": null },
+        "thu": { "qty": 5, "status": "quilting" },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "",
+      "remark": ""
+    },
+    {
+      "sku": "MIDNIGHT-20-LUX-15IN-QUEEN",
+      "productName": "MIDNIGHT 2.0 LUX 15\" m Mattress",
+      "size": "QUEEN",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": 8, "status": "quilting" },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 5, "status": "priority" },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "Philip",
+      "remark": ""
+    },
+    {
+      "sku": "MIDNIGHT-20-LUX-15IN-KING",
+      "productName": "MIDNIGHT 2.0 LUX 15\" m Mattress",
+      "size": "KING",
+      "nameColor": null,
+      "days": {
+        "mon": { "qty": null, "status": null },
+        "tue": { "qty": null, "status": null },
+        "wed": { "qty": 10, "status": "priority" },
+        "thu": { "qty": null, "status": null },
+        "fri": { "qty": null, "status": null },
+        "sat": { "qty": null, "status": null },
+        "sun": { "qty": null, "status": null }
+      },
+      "pic": "Joe",
+      "remark": ""
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+-- ============================================================
+-- Dữ liệu nạp sẵn nhóm FOAM — GIÁ BÁN THẬT THEO KHÁCH HÀNG
+-- ============================================================
+-- File này KHÔNG đưa lên Git (đã .gitignore) vì chứa giá bán thực
+-- tế theo từng khách hàng (Corsicana, Dickson, Sterling Foam...).
+-- Chạy SAU khi đã chạy foam-schema.sql. Chạy 1 lần lúc thiết lập.
+-- Nguồn: data-goc/Invoice Foam.xlsm + bảng mã foam.
+-- ============================================================
+
+insert into public.foam_products (foam_code,foam_dh,density_lb,density_kg,hardness,description,color,base_thick,customer_usual) values
+('CFN17138W','NFD22-H20',1.38,22.08,17,'Conventional foam','White',null,'ASW'),
+('CFG17138W','CFG17138W',1.38,22.11,17,'Cooling Gel Infused Conventional PU Foam-GFD22-H20-White','White',41,''),
+('CFN27175W','NFD28-H30',1.75,28.03,27,'Conventional PU Foam-NFD28-H30-White','White',40,''),
+('CFN27175W','CFN27175W',1.75,28.03,27,'Conventional PU Foam-NFD28-H30-White','White',40,''),
+('CFN28112W','NFD18-H50',1.12,17.92,28,'Conventional PU Foam-NFD18-H50-White','White',45,'ASW'),
+('CFN28112W','CFN28112W',1.12,17.92,28,'Conventional PU Foam-NFD18-H50-White','White',45,'ASW'),
+('CFN34156W','NFD25-H50',1.56,24.96,34,'Conventional PU Foam-NFD25-H50-White','White',44,'ASW -  SOFA'),
+('CFN34156W','CFN34156W',1.56,24.96,34,'Conventional PU Foam-NFD25-H50-White','White',44,'ASW -  SOFA'),
+('CFN39175W','NFD28-H50',1.75,28.03,39,'Conventional PU Foam-NFD28-H50-White','White',41,''),
+('CFN39175W','CFN39175W',1.75,28.03,39,'Conventional PU Foam-NFD28-H50-White','White',41,''),
+('CFN39190W','NFD30-H50',1.9,30.4,39,'Conventional PU Foam-NFD30-H50-White','White',41,'ASW -  SOFA'),
+('CFN39190W','CFN39190W',1.9,30.4,39,'Conventional PU Foam-NFD30-H50-White','White',41,'ASW -  SOFA'),
+('CFN55143Y','NFD23-H90',1.43,22.91,55,'Conventional PU Foam-NFD23-H90-Yellow','Yellow',44,''),
+('CFN55143Y','CFN55131Y',1.43,22.91,55,'Conventional PU Foam-NFD23-H90-Yellow','Yellow',44,''),
+('LFN08190W','NLF30-30N',1.9,30.44,8,'Latex like foam-NLF30-30N-White','White',32,''),
+('LFN08190W','LFN08190W',1.9,30.44,8,'Latex like foam-NLF30-30N-White','White',32,''),
+('VAC08225G','CAM36-30N',2.25,36.04,8,'','Gray',null,''),
+('VAC08225G','VAC08225G',2.25,36.04,8,'','Gray',null,''),
+('VAG11225B','GAM36-50N',2.25,36.04,11,'Cooling Gel Infused Aero Memory Foam-GAM36-50N-Blue','Blue',32,''),
+('VAG11225B','VAG11225B',2.25,36.04,11,'Cooling Gel Infused Aero Memory Foam-GAM36-50N-Blue','Blue',32,''),
+('VAG12156B','GAM25-50N',1.56,24.99,12,'','Blue',null,''),
+('VAG12156B','VAG12156B',1.56,24.99,12,'','Blue',null,''),
+('CFN50131W','CFN50131W',1.31,20.96,50,'Conventional foam','White',null,'ASW'),
+('CFN50131W','NFD21-H70',1.31,20.96,50,'Conventional foam','White',null,'ASW'),
+('CFN39180W','NFD29H50',1.8,28.8,39,'Conventional foam','White',null,'ASW -  SOFA'),
+('CFN39180W','CFN39180W',1.8,28.8,39,'Conventional foam','White',null,'ASW -  SOFA'),
+('CFN34150W','CFN34150W',1.5,24,34,'Conventional foam','White',null,'ASW -  SOFA'),
+('CFN34150W','NFD24H50',1.5,24,34,'Conventional foam','White',null,'ASW -  SOFA'),
+('CFN38173W','CFN38173W',1.73,27.68,38,'Conventional foam','White',null,'ASW -  SOFA'),
+('CFN32140W','CFN32140W',1.4,22.4,32,'Conventional PU Foam-NFD22-H50-White','White',43,'ASW -  SOFA'),
+('CFN38173W','NFD28-H50',1.73,27.68,38,'Conventional foam','White',null,'ASW -  SOFA'),
+('CFN30100W','NFD16-H60',1.0,16,30,'Conventional foam','White',null,'ASW -  SOFA'),
+('CFN32140W','NFD22-H50',1.4,22.4,32,'Conventional PU Foam-NFD22-H50-White','White',43,'ASW -  SOFA');
+
+insert into public.foam_customers (name) values
+('AMERICANSTAR PRODUCTION'),
+('CORSICANA'),
+('DICKSON'),
+('MD MATTRESS'),
+('NAP QUEEN'),
+('SIMON BEDDING'),
+('SOUTHWESTERN'),
+('STERLING FOAM');
+
+insert into public.foam_sizes (size_basis,size_code,width,length,note) values
+('UNTRIM','T',38,75,'Raw twin'),
+('UNTRIM','F',54,75,'Raw full'),
+('UNTRIM','Q',60,80,'Raw queen'),
+('UNTRIM','K',76,80,'Raw king'),
+('UNTRIM','CK',72,84,'Raw cal king'),
+('UNTRIM','S',36,80,'Raw single'),
+('UNTRIM','W',70,80,'Raw wide special'),
+('TRIM-AS','T',37,74,'AS trim twin'),
+('TRIM-AS','F',53,74,'AS trim full'),
+('TRIM-AS','Q',59,79,'AS trim queen'),
+('TRIM-AS','K',75,79,'AS trim king'),
+('TRIM-AS','CK',71,83,'AS trim cal king'),
+('TRIM-AS','S',35,79,'AS trim single'),
+('TRIM-AS','W',69,79,'AS trim wide special'),
+('TRIM-CUSTOM','T',37,74,'Customer trim - default twin'),
+('TRIM-CUSTOM','F',53,74,'Customer trim - default full'),
+('TRIM-CUSTOM','Q',59,79,'Customer trim - default queen'),
+('TRIM-CUSTOM','K',75,79,'Customer trim - default king'),
+('TRIM-CUSTOM','CK',71,83,'Customer trim - default cal king'),
+('TRIM-CUSTOM','S',35,79,'Customer trim - default single'),
+('TRIM-CUSTOM','W',69,79,'Customer trim - default wide special');
+
+insert into public.foam_prices (customer,foam_code,customer_code,customer_remark,price) values
+('CORSICANA','CFN50131W','BNF13050','BLACK',0.2316),
+('CORSICANA','CFN30100W','BNF100030','BLUE',0.1895),
+('CORSICANA','CFN17138W','','',null),
+('CORSICANA','CFN34150W','','',null),
+('CORSICANA','CFN39180W','','',null),
+('DICKSON','CFN34150W','FM1540','',0.2907),
+('DICKSON','CFN39180W','FM1836','',0.329),
+('DICKSON','CFN30100W','FM1030','',0.225),
+('DICKSON','CFN17138W','FM1515','',0.2825),
+('DICKSON','CFN50180W','FM1850','',0.3674),
+('MD MATTRESS','CFN30100W','','',0.2051),
+('SOUTHWESTERN','CFN30100W','','',0.1852),
+('SOUTHWESTERN','CFN34150W','','',0.2659),
+('STERLING FOAM','CFN30100W','','',0.1968),
+('STERLING FOAM','CFN50131W','','',0.25),
+('STERLING FOAM','CFN17138W','','',0.2721),
+('STERLING FOAM','CFN34150W','','',0.2782),
+('STERLING FOAM','CFN35180W','','',0.3235),
+('NAP QUEEN','CFN34150W','','G',0.316),
+('NAP QUEEN','CFN30100W','','G',0.2416),
+('NAP QUEEN','CFN50131W','','G',0.2844),
+('MD MATTRESS','CFN34150W','','',0.2681),
+('SIMON BEDDING','CFN30100W','','',0.2586),
+('SIMON BEDDING','CFN50131W','','',0.3036),
+('AMERICANSTAR PRODUCTION','CFN50131W','','',0.2174),
+('AMERICANSTAR PRODUCTION','CFN34150W','','',0.2419),
+('AMERICANSTAR PRODUCTION','CFN17138W','','',0.2317);
